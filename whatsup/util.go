@@ -6,6 +6,8 @@ import (
 	"net"
 )
 
+const MSG_DELIM = ":"
+
 type ChatConn struct {
 	Enc  *gob.Encoder
 	Dec  *gob.Decoder
